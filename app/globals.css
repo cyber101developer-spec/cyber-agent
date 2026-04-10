@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0a1628;
+  --navy-light: #1e2d4a;
+  --accent: #3b82f6;
+}
+
+body {
+  background: #f3f4f6;
+}
+
+.toast-enter {
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
